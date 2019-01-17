@@ -1,3 +1,6 @@
+apply plugin: 'maven-publish'
+apply plugin: 'maven'
+
 repositories {
     maven { url "https://raw.github.com/synergian/wagon-git/releases" }
 }
